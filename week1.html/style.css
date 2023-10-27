@@ -1,0 +1,28 @@
+.container
+{
+    margin: 20px;
+    padding: 20px;
+}
+.container div
+{
+    background-color: lightseagreen;
+}
+.container:hover
+{
+ background-color: aqua;
+}
+td, thead
+{
+    text-align: center;
+    padding: 10px;
+
+}
+thead
+{
+    font-weight: bolder;
+    color: blueviolet;
+}
+*
+{
+    padding: 10px;
+}

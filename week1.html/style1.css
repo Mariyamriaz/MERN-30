@@ -1,0 +1,71 @@
+.container
+{
+    display: flex;
+    margin: 20px;
+}
+.wrap1
+{
+    margin-top: 05%;
+    margin-left: 10%;
+    
+}
+.wrap1 h1
+{
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+}
+.wrap1 p
+{
+    
+    display: contents;
+    align-content: center;
+}
+.wrap1 button
+{
+    border: none;
+    text-decoration: none;
+    background-color: none;
+    height: 50px;
+    width: 100px;
+
+
+}
+.wrap1 button:hover
+{
+    text-decoration: underline orange ;
+
+    
+}
+img
+{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+
+}
+.wrap1 p
+{
+    justify-content: center;
+    color: blue;
+}
+.wrap2 button
+{
+    height: 30px;
+    width: 200px;
+}
+h2
+{
+    color: silver;
+}
+.wrap1 h1
+{
+    color: blue;
+    justify-content: center;
+}
+ul
+{
+    padding: 30px;
+    align-items: justify;
+    
+}
