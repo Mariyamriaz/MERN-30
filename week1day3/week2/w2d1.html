@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.cont1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.cont2 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.cont3
+{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: palevioletred;
+  padding: 10px;
+  margin: 20px;
+  height: 150px;
+  width: 130px;
+}
+
+.cont3 div
+{
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+ 
+}
+
+.cont3 
+{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.conta div
+{
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+ 
+}
+.conta
+{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: palevioletred;
+  padding: 10px;
+  margin: 20px;
+  height: 150px;
+  width: 220px;
+}
+.conta 
+{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.cont4
+{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: palevioletred;
+  padding: 10px;
+  margin: 20px;
+  width: 600px;
+  
+}
+.cont4 div
+{
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+ 
+}
+.items
+{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+
+</style>
+</head>
+<body>
+
+
+
+<div class="grid-container">
+  <div class="cont1" style="display: flex;">
+    <div class="cont4">
+      <div class="items">1</div>
+      
+    </div>
+    <div class="cont3">
+      <div class="items">1</div>
+    </div>
+    <div class="cont3">
+      <div class="items">1</div>
+    </div>
+    <div class="cont3">
+      <div class="items">1</div>
+    </div>
+  </div>
+  <div class="cont2" style="display: flex;">
+    <div class="cont4">
+      <div class="items">1</div>
+      <div class="items">2</div> 
+      
+    </div>
+    <div class="conta">
+      <div class="items">1</div>
+    </div>
+    <div class="conta">
+      <div class="items">1</div>
+    </div>
+  </div>
+  
+  
+</div>
+
+
+</body>
+</html>
