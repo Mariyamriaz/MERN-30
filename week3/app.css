@@ -1,0 +1,10 @@
+.app
+{
+  display: flex;
+  gap: 50px;
+  margin: 10px;
+}
+button,select,input,span
+{
+  margin: 10px;
+}
