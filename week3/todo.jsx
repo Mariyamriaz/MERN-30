@@ -7,23 +7,24 @@ function App() {
 
  const [todos,setTodo]=useState([]);
  const [task,setTask]=useState("");
- const [status,setStatus]=useState("INCOMPLETE");
+ const [status,setStatus]=useState("completed");
 
 
   return (
     <>
-      
+      <div className='app' >
      <form onSubmit={(e)=>
     {
-e.preventDefault;
-setTodo([...todos,
-{
-  task:task,
-  status:status;
-}])
+     e.preventDefault();
+     setTodo([...todos,
+    {  
+     task:task,
+     status:status
+    }
+    ]);
 
     }}>
-      <label> Task</label>
+      <label>Task</label>
       <input  
       required
       type="text"
@@ -40,6 +41,7 @@ setTodo([...todos,
         
         <option value="completed">completed</option>
         <option value="incomplete">incomplete</option>
+        <option value="Pending">Pending</option>
       </select>
       <button type='submit'>submit</button>
     </form>
@@ -48,14 +50,13 @@ setTodo([...todos,
       {
         return(
           <div key={item}>
-            <span>{item.task}</span>
-            <span>{item.status}</span>
+            <span>{item.task}  </span>
+            <span>{item.status}  </span>
           </div>
-        )
+        );
       })}
     </div>
-    
-
+    </div>
     </>
   )
 }
