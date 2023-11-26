@@ -3,7 +3,7 @@ const app = express();
 const router = express.Router()
 const PORT =  5000
 app.listen(PORT,()=>{
-    console.log(`TODO Server is started on port ${PORT}`)
+    console.log(`TODO Server is started on port ${PORT} 👽👽🪐`)
 })
 
 
@@ -11,7 +11,6 @@ app.use(express.json())
 const mongoose = require('mongoose');
 async function connectDatabase() {
     await mongoose.connect('mongodb://127.0.0.1:27017/test');
-    // await mongoose.connect('mongodb+srv://admin:admin@project-cluster.ntsdu0a.mongodb.net/');
   }
 connectDatabase().then((result)=>console.log(result)).catch(err => console.log(err));
 
