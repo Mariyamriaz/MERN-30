@@ -1,0 +1,16 @@
+const people = [
+    { id: 1, name: "madiha", score: 7 },
+    { id: 2, name: "aliya", score: 7 },
+    { id: 3, name: "deepa", score: 10 },
+    { id: 4, name: "maryam", score: 8 },
+    { id: 5, name: "sania", score: 9 },
+    { id: 6, name: "humaira", score: 10 },
+    { id: 7, name: "sejal", score: 9 },
+    { id: 8, name: "ariel", score: 6 },
+];
+
+const leaderboard = people.sort((a, b) => b.score - a.score);
+console.log(
+    "Top 3 are",
+    leaderboard.slice(0,3));
+
